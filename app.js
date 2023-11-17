@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hola, soy Yoniber Encarnacion Haciendo pruebas unitarias.");
+  res.send("Peliculas y series");
 });
 
 const server = app.listen(57675, () => {
