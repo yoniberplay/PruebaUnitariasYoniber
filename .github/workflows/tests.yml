@@ -1,6 +1,12 @@
 name: Pruebas Unitarias
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - "*" # o el nombre de tu rama principal
+  pull_request:
+    branches:
+      - main # o el nombre de tu rama principal
 
 jobs:
   test:
